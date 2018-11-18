@@ -1,11 +1,8 @@
 <HTML>
 	<!--CSS Code ahead/Codigo de CSS adelante-->
 	<style>
-		header {
-			color: blue;
-		}
 		body {
-			font-family: "comic sans ms";
+			font-family: "Arial";
 		}
 		a {
 			text-decoration: none;
@@ -23,7 +20,7 @@
 	</head>
 	<body>
 		<!--Content Perse/Contenido Perse-->
-		<header><h1>Test for a header with embedded CSS</h1></header>
+		<h1 id=header>Test for a header with embedded CSS</h1>
 		<a href="Pagina2.html">Link to page of the green Mario</a> <br>
 		<a href="page3.html">Gopniks, here you will find you'r best friend!</a> <a href="secretfile.html">asdf</a>
 		
@@ -35,6 +32,8 @@
 			console.error("Green Mario did it again!");
 			console.info("OwO");
 			console.warn("What's that error?");
+			$("#header")
+				.html("Hewwo!");
 		</script>
 	</body>
 </HTML>
