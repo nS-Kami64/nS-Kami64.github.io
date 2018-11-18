@@ -32,10 +32,12 @@
 		console.log/error/info-displays a log/an error/info on the depurator console (F12)-->
 		<script>
 			//click handler for secret owo
-			funtion owo() {
-				alert( "owo you found a sewect!");
 			}
-			$("#secret").click(owo);
+			$("#secret").click(
+				function() {
+					alert("owo you found a sewect!");
+				}
+			);
 		</script>
 	</body>
 </HTML>
